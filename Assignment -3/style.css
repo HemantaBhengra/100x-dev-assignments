@@ -13,9 +13,11 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 20px 90px;
-    background-color: aqua;
+    /* background-color: aqua; */
+    border: solid 1px gainsboro;
     position: sticky;
     top: 0;
+    background-color: #ffff;
 }
 
 .left_header{
@@ -93,4 +95,47 @@ body{
     width: 150px;
     border-radius: 10px;
     border:none;
+    cursor: pointer;
+}
+
+#page_1_down{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.pg_box_1{
+    height: 150px;
+    width: 100%;
+    background-color: #001959;
+    border-radius: 20px 100px 20px 20px;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 10px; */
+}
+.pg-box-1a{
+    display: flex;
+    /* justify-content:space-between ; */
+    gap: 60px;
+}
+.icons{
+    height: 50px;
+    width: 50px;
+    background-color: #8289cd;
+    border-radius: 0 10px 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons i{
+    font-size: 25px;
+}
+.divider{
+    height: 50px;
+    width: 1px;
+    background-color: white;
+}
+.texts{
+    color: #fff;
 }
