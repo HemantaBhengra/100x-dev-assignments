@@ -101,7 +101,8 @@ body{
 #page_1_down{
     display: flex;
     flex-direction: column;
-    margin-top: 60px;
+    margin-top: 70px;
+    /* padding: 70px; */
 }
 .pg_box_1{
     height: 150px;
@@ -117,7 +118,7 @@ body{
 .pg-box-1a{
     display: flex;
     /* justify-content:space-between ; */
-    gap: 60px;
+    gap: 20px;
 }
 .icons{
     height: 50px;
@@ -132,10 +133,14 @@ body{
     font-size: 25px;
 }
 .divider{
-    height: 50px;
-    width: 1px;
+    height: 70px;
+    width: 2px;
     background-color: white;
+    margin-left: 70px;
 }
 .texts{
     color: #fff;
+}
+.texts h2{
+    font-size: 35px;
 }
